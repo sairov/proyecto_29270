@@ -34,11 +34,14 @@ img {
 /* HEADER */
 
 header {
+    padding: 2rem 0;
+    border-bottom: 2px solid #FF5376;
+}
+
+.flex {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 2rem 0;
-    border-bottom: 2px solid #FF5376;
 }
 
 header .header__logo {

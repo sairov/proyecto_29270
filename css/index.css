@@ -33,10 +33,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* 
 html {
     font-size: 62.5%;
-}
+} */
 
 body {
     font-family: var(--font-principal);
@@ -51,6 +51,19 @@ a {
     text-decoration: none;
     color: var(--text-color);
 }
+
+/* Override Bootstrap*/
+
+a:hover {
+    color: inherit;
+}
+
+dl, ol, ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
 
 img {
     width: 100%;
@@ -101,26 +114,26 @@ header nav .menu {
 
 /* Main */
 
-.container {
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: var(--spacing-small);
-}
+} */
 
 /* CARDS */
 .cards {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     gap: var(--spacing-xsmall);
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
 }
 
 .box {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-xsmall);
-    flex: 1 1 clamp(300px, 30%, 400px);
+    /* flex: 1 1 clamp(300px, 30%, 400px); */
 }
 
 .box__info {
